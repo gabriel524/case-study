@@ -59,10 +59,12 @@ img, picture {
     display: block;
 }
 
-@media only screen and (min-width: 1232px) {
-  .section_wrapper {
-    padding: 0;
-  }
+#credit{
+  display:inline;
+  margin: 0;
+  letter-spacing: 1px;
+  line-height: 0.10;
+  margin-top: 50%;
 }
 
 #study {
@@ -120,9 +122,7 @@ img, picture {
     font-weight: 350;
     color: #f40591;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    margin-bottom: 0px;
-    
+    letter-spacing: 0.1rem;
 }
 
 .section-title2 {
@@ -148,9 +148,6 @@ img, picture {
     color: #f40591;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    margin-bottom: 0px;
-    
-    
 }
 
 .text_image_wrapper {
@@ -167,9 +164,17 @@ img, picture {
     display: grid;
 }
 
-.credits {
-    text-align: left;
-    margin: 0 20px;
+.credit{
+  color: #f40591;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 1232px) {
+  .section_wrapper {
+    padding: 0;
+  }
 }
 
 @media all and (min-width: 781px) {
