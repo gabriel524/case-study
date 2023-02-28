@@ -54,11 +54,6 @@ a:active {
   margin: 0 20px;
 }
 
-img, picture {
-    max-width: 115%;
-    display: block;
-}
-
 #credit{
   display:inline;
   margin: 0;
@@ -115,7 +110,16 @@ img, picture {
     border-radius: 20px;
     border: 1px solid rgb(83, 40, 155);
     padding: 4px;
-    box-shadow: 2.6px 2.5px 11px rgb(250, 249, 251);
+    box-shadow: 1.6px 2.5px 11px rgb(250, 249, 251);
+}
+
+img, picture {
+    width: 600px;
+    max-height: 300px;
+    display: block;
+}
+#case{
+  padding-right:90px;
 }
 .section-title {
     font-size: 30px;
