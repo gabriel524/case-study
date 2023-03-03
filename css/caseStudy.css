@@ -121,6 +121,15 @@ img, picture {
 #case{
   padding-right:90px;
 }
+#d{
+  display: flex;
+
+}
+
+#skills{
+padding-left: 210px;
+}
+
 .section-title {
     font-size: 30px;
     font-weight: 350;
@@ -141,7 +150,7 @@ img, picture {
     background-color: palevioletred;
     border-radius: 25px;
     bottom: 10px;
-    margin-top: -65px;
+    margin-top: -6px;
     box-shadow: 2.6px 2.5px 11px rgb(42, 19, 66);
     border-color: #ff00ee rgb(57,255,12) hwb(184 22% 1%) orangered;
 }
