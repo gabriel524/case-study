@@ -113,7 +113,6 @@ a:hover, a:focus {
   bottom: 0;
   transition: 0.5s;
   align-items: center;
-
   text-decoration: none;
 }
 
@@ -126,6 +125,19 @@ li  {
 
 /*logo styling*/
 .logo {
+  color:hsl(240, 75%, 2%);
+  justify-content: center;
+  top: 0px;
+  bottom: 2px;
+  font-size: 45px;
+  border-top: 110px;
+  border-bottom: 110px;
+  background-color:#00fffb;
+  margin: 10 0px;
+  position: absolute;
+  float: left;
+}
+.logo .bwt >a {
   color:hsl(240, 75%, 2%);
   justify-content: center;
   top: 6px;
@@ -141,6 +153,13 @@ li  {
   margin: 10 0px;
   position: absolute;
   float: left;
+}
+
+#btm li{
+  padding-right: 35px;
+  width: 3px;
+  display: inline;
+  line-height: 70px;
 }
 /*End of logo styling*/
 
